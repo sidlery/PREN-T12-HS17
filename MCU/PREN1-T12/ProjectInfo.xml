@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MKL25Z128xxx4</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M0+</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>16k</SRAMsize>
+    <FLASHsize>128k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>C:\Freescale\Workspace\PREN1-T12\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>C:\Freescale\Workspace\PREN1-T12\Static_Code\PDD\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\Static_Code\IO_Map\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\Sources\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\Generated_Code\</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>C:\Freescale\Workspace\PREN1-T12\CMSIS\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\Generated_Code\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\Project_Settings\Startup_Code\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\Sources\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\board\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\drivers\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\source\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\utilities\</Path>
+      <Path>C:\Freescale\Workspace\PREN1-T12\startup\</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\system_MKL25Z4.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\LED1.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\LEDpin1.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\MCUC1.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\Vectors.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\WAIT1.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Project_Settings\Startup_Code\startup.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Sources\Events.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Sources\main.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\board\board.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\board\clock_config.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\board\pin_mux.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_adc16.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_clock.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_cmp.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_common.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_cop.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_dac.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_dma.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_dmamux.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_flash.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_gpio.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_i2c.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_i2c_dma.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_llwu.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_lpsci.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_lpsci_dma.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_lptmr.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_pit.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_pmc.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_rcm.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_rtc.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_sim.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_smc.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_spi.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_spi_dma.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_tpm.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_tsi_v4.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_uart.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_uart_dma.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\source\main.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\utilities\fsl_debug_console.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\utilities\fsl_notifier.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\utilities\fsl_sbrk.c</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\utilities\fsl_shell.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\MKL25Z4.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\MKL25Z4_features.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\arm_common_tables.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\arm_const_structs.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\arm_math.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\cmsis_armcc.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\cmsis_armcc_V6.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\cmsis_gcc.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\core_cm0plus.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\core_cmFunc.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\core_cmInstr.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\core_cmSimd.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\fsl_device_registers.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\CMSIS\system_MKL25Z4.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\LED1.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\LED1config.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\LEDpin1.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\LEDpin1config.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\MCUC1.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\MCUC1config.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\WAIT1.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Generated_Code\WAIT1config.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Sources\Events.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Static_Code\IO_Map\MKL25Z4.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\Static_Code\PDD\PDD_Types.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\board\board.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\board\clock_config.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\board\pin_mux.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_adc16.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_clock.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_cmp.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_common.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_cop.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_dac.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_dma.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_dmamux.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_flash.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_gpio.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_i2c.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_i2c_dma.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_llwu.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_lpsci.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_lpsci_dma.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_lptmr.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_pit.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_pmc.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_port.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_rcm.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_rtc.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_sim.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_smc.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_spi.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_spi_dma.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_tpm.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_tsi_v4.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_uart.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\drivers\fsl_uart_dma.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\utilities\fsl_debug_console.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\utilities\fsl_notifier.h</PathName>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\utilities\fsl_shell.h</PathName>
+    </GeneratedHs>
+    <GeneratedASMs>
+      <PathName>C:\Freescale\Workspace\PREN1-T12\startup\startup_MKL25Z4.S</PathName>
+    </GeneratedASMs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>
